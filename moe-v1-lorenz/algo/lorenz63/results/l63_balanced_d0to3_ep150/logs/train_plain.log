@@ -1,0 +1,169 @@
+[attractor-pool-L63] building size=16 dim=3 spinup_steps=20 seed=42
+[attractor-pool-L63] spinup 2/20
+[attractor-pool-L63] spinup 4/20
+[attractor-pool-L63] spinup 6/20
+[attractor-pool-L63] spinup 8/20
+[attractor-pool-L63] spinup 10/20
+[attractor-pool-L63] spinup 12/20
+[attractor-pool-L63] spinup 14/20
+[attractor-pool-L63] spinup 16/20
+[attractor-pool-L63] spinup 18/20
+[attractor-pool-L63] spinup 20/20
+[attractor-pool-L63] ready
+difficulty trajectories per batch: 0:2, 1:2, 2:2, 3:2
+Epoch   0 | RMSE 1.8571 | ES 1.4618 | NLL 0.6420 | mean_MSE 4.5482 | objective 2.4356
+  saved best objective: /home/abhi/code/defence/AD-EnFF/moe-v1-lorenz/algo/lorenz63/results/l63_balanced_d0to3_ep150/checkpoints/l63_balanced_d0to3_ep150_plain_best.pt
+Epoch   1 | RMSE 1.5452 | ES 1.1049 | NLL 2.4154 | mean_MSE 2.9403 | objective 1.9345
+  saved best objective: /home/abhi/code/defence/AD-EnFF/moe-v1-lorenz/algo/lorenz63/results/l63_balanced_d0to3_ep150/checkpoints/l63_balanced_d0to3_ep150_plain_best.pt
+Epoch   2 | RMSE 2.1115 | ES 1.7023 | NLL 0.8228 | mean_MSE 5.7853 | objective 2.9416
+Epoch   3 | RMSE 2.5538 | ES 1.8511 | NLL 1.0180 | mean_MSE 8.2706 | objective 3.6070
+Epoch   4 | RMSE 2.5843 | ES 2.1786 | NLL 3.4206 | mean_MSE 9.7497 | objective 4.4706
+Epoch   5 | RMSE 2.9409 | ES 2.3970 | NLL 1.5301 | mean_MSE 11.4409 | objective 4.8382
+Epoch   6 | RMSE 1.9664 | ES 1.7633 | NLL 1.1728 | mean_MSE 5.8983 | objective 3.0603
+Epoch   7 | RMSE 2.5280 | ES 1.7148 | NLL 0.9577 | mean_MSE 8.8524 | objective 3.5810
+Epoch   8 | RMSE 2.4425 | ES 1.7615 | NLL 1.1096 | mean_MSE 8.2443 | objective 3.5213
+Epoch   9 | RMSE 1.6990 | ES 1.7390 | NLL 1.7454 | mean_MSE 3.6886 | objective 2.6512
+Epoch  10 | RMSE 2.5425 | ES 2.4609 | NLL 1.1087 | mean_MSE 9.9095 | objective 4.5537
+Epoch  11 | RMSE 2.1899 | ES 1.6827 | NLL 5.1777 | mean_MSE 6.6989 | objective 3.5403
+Epoch  12 | RMSE 3.0853 | ES 2.4164 | NLL 1.2328 | mean_MSE 13.2281 | objective 5.1853
+Epoch  13 | RMSE 2.4167 | ES 1.8885 | NLL 0.7882 | mean_MSE 8.7876 | objective 3.7249
+Epoch  14 | RMSE 2.0211 | ES 1.7032 | NLL 0.9972 | mean_MSE 5.9257 | objective 2.9880
+Epoch  15 | RMSE 2.9423 | ES 2.2691 | NLL 2.2253 | mean_MSE 11.3416 | objective 4.7599
+Epoch  16 | RMSE 1.4457 | ES 1.2695 | NLL 0.8299 | mean_MSE 2.5236 | objective 1.8572
+  saved best objective: /home/abhi/code/defence/AD-EnFF/moe-v1-lorenz/algo/lorenz63/results/l63_balanced_d0to3_ep150/checkpoints/l63_balanced_d0to3_ep150_plain_best.pt
+Epoch  17 | RMSE 2.0506 | ES 1.8203 | NLL 3.1175 | mean_MSE 5.5101 | objective 3.2341
+Epoch  18 | RMSE 1.7218 | ES 1.3242 | NLL 1.2291 | mean_MSE 3.6948 | objective 2.1861
+Epoch  19 | RMSE 2.0028 | ES 1.8122 | NLL 1.7125 | mean_MSE 5.7448 | objective 3.1324
+Epoch  20 | RMSE 1.4681 | ES 1.2643 | NLL 1.1223 | mean_MSE 2.7393 | objective 1.9244
+Epoch  21 | RMSE 1.8563 | ES 1.4267 | NLL 6.4001 | mean_MSE 4.5654 | objective 2.9798
+Epoch  22 | RMSE 2.0919 | ES 1.6795 | NLL 2.2468 | mean_MSE 5.2622 | objective 2.9567
+Epoch  23 | RMSE 1.3970 | ES 1.4440 | NLL 0.8594 | mean_MSE 2.9308 | objective 2.1161
+Epoch  24 | RMSE 2.0839 | ES 1.5702 | NLL 1.0101 | mean_MSE 5.5614 | objective 2.7835
+Epoch  25 | RMSE 2.5328 | ES 1.7980 | NLL 1.0382 | mean_MSE 7.9908 | objective 3.5000
+Epoch  26 | RMSE 1.7526 | ES 1.2812 | NLL 0.8737 | mean_MSE 3.9733 | objective 2.1633
+Epoch  27 | RMSE 1.8992 | ES 1.7191 | NLL 0.9097 | mean_MSE 4.6214 | objective 2.7344
+Epoch  28 | RMSE 2.2056 | ES 1.5197 | NLL 1.4714 | mean_MSE 6.9020 | objective 3.0473
+Epoch  29 | RMSE 1.5675 | ES 1.4914 | NLL 0.8327 | mean_MSE 3.1472 | objective 2.2041
+Epoch  30 | RMSE 1.4885 | ES 1.2126 | NLL 1.4054 | mean_MSE 3.0503 | objective 1.9632
+Epoch  31 | RMSE 1.2180 | ES 1.4625 | NLL 1.0715 | mean_MSE 2.0046 | objective 1.9706
+Epoch  32 | RMSE 2.3855 | ES 1.8027 | NLL 1.5077 | mean_MSE 7.5456 | objective 3.4626
+Epoch  33 | RMSE 1.4168 | ES 1.4027 | NLL 0.9564 | mean_MSE 2.5131 | objective 2.0010
+Epoch  34 | RMSE 1.5267 | ES 1.1352 | NLL 0.8535 | mean_MSE 2.9219 | objective 1.8049
+  saved best objective: /home/abhi/code/defence/AD-EnFF/moe-v1-lorenz/algo/lorenz63/results/l63_balanced_d0to3_ep150/checkpoints/l63_balanced_d0to3_ep150_plain_best.pt
+Epoch  35 | RMSE 2.1212 | ES 1.6138 | NLL 8.8538 | mean_MSE 5.3767 | objective 3.5745
+Epoch  36 | RMSE 2.5209 | ES 1.7929 | NLL 2.1372 | mean_MSE 7.7407 | objective 3.5547
+Epoch  37 | RMSE 1.8692 | ES 1.4455 | NLL 1.8011 | mean_MSE 3.9891 | objective 2.4235
+Epoch  38 | RMSE 1.4624 | ES 1.3496 | NLL 0.7425 | mean_MSE 2.7791 | objective 1.9797
+Epoch  39 | RMSE 1.3243 | ES 1.1200 | NLL 0.6970 | mean_MSE 2.3654 | objective 1.6628
+  saved best objective: /home/abhi/code/defence/AD-EnFF/moe-v1-lorenz/algo/lorenz63/results/l63_balanced_d0to3_ep150/checkpoints/l63_balanced_d0to3_ep150_plain_best.pt
+Epoch  40 | RMSE 1.4622 | ES 1.3335 | NLL 0.8941 | mean_MSE 2.9237 | objective 2.0076
+Epoch  41 | RMSE 1.9950 | ES 1.7155 | NLL 1.2147 | mean_MSE 4.8122 | objective 2.7994
+Epoch  42 | RMSE 1.9273 | ES 1.7507 | NLL 1.0472 | mean_MSE 4.6479 | objective 2.7850
+Epoch  43 | RMSE 1.7824 | ES 1.4897 | NLL 1.6553 | mean_MSE 4.0215 | objective 2.4595
+Epoch  44 | RMSE 1.5810 | ES 1.2654 | NLL 0.6117 | mean_MSE 3.0442 | objective 1.9355
+Epoch  45 | RMSE 3.1288 | ES 2.2773 | NLL 1.4445 | mean_MSE 14.3127 | objective 5.2843
+Epoch  46 | RMSE 1.7480 | ES 1.8205 | NLL 1.1982 | mean_MSE 4.1710 | objective 2.7746
+Epoch  47 | RMSE 2.6135 | ES 2.2691 | NLL 7.1310 | mean_MSE 9.0281 | objective 4.7878
+Epoch  48 | RMSE 2.0695 | ES 2.0681 | NLL 3.4537 | mean_MSE 5.5948 | objective 3.5324
+Epoch  49 | RMSE 3.0722 | ES 2.6147 | NLL 3.3098 | mean_MSE 14.0965 | objective 5.7650
+Epoch  50 | RMSE 2.6682 | ES 1.6122 | NLL 0.9959 | mean_MSE 9.3732 | objective 3.5864
+Epoch  51 | RMSE 0.9334 | ES 0.9632 | NLL 0.4261 | mean_MSE 1.1031 | objective 1.2264
+  saved best objective: /home/abhi/code/defence/AD-EnFF/moe-v1-lorenz/algo/lorenz63/results/l63_balanced_d0to3_ep150/checkpoints/l63_balanced_d0to3_ep150_plain_best.pt
+Epoch  52 | RMSE 2.3198 | ES 1.6368 | NLL 0.8976 | mean_MSE 7.5516 | objective 3.2369
+Epoch  53 | RMSE 2.0572 | ES 1.5874 | NLL 1.4535 | mean_MSE 5.5185 | objective 2.8364
+Epoch  54 | RMSE 2.0283 | ES 1.8334 | NLL 12.4735 | mean_MSE 5.3596 | objective 4.1526
+Epoch  55 | RMSE 2.2792 | ES 1.6543 | NLL 1.2487 | mean_MSE 7.0699 | objective 3.1932
+Epoch  56 | RMSE 1.8148 | ES 1.5846 | NLL 1.0625 | mean_MSE 4.1790 | objective 2.5267
+Epoch  57 | RMSE 2.5485 | ES 2.2738 | NLL 2.5407 | mean_MSE 8.7163 | objective 4.2712
+Epoch  58 | RMSE 2.0183 | ES 1.6805 | NLL 1.9188 | mean_MSE 5.4744 | objective 2.9673
+Epoch  59 | RMSE 1.9437 | ES 1.5015 | NLL 1.5894 | mean_MSE 4.9221 | objective 2.6449
+Epoch  60 | RMSE 1.8847 | ES 1.8146 | NLL 0.8127 | mean_MSE 5.7637 | objective 3.0486
+Epoch  61 | RMSE 1.9125 | ES 1.8068 | NLL 2.8434 | mean_MSE 5.0960 | objective 3.1104
+Epoch  62 | RMSE 2.1190 | ES 1.5567 | NLL 0.7373 | mean_MSE 7.2230 | objective 3.0750
+Epoch  63 | RMSE 1.9507 | ES 1.7033 | NLL 0.9026 | mean_MSE 5.4107 | objective 2.8757
+Epoch  64 | RMSE 3.0086 | ES 2.5211 | NLL 1.9820 | mean_MSE 14.0076 | objective 5.5209
+Epoch  65 | RMSE 2.0620 | ES 1.7026 | NLL 1.2015 | mean_MSE 5.2853 | objective 2.8798
+Epoch  66 | RMSE 2.4083 | ES 1.7497 | NLL 1.4388 | mean_MSE 7.8096 | objective 3.4555
+Epoch  67 | RMSE 1.4034 | ES 1.3117 | NLL 0.7648 | mean_MSE 2.7792 | objective 1.9440
+Epoch  68 | RMSE 2.7129 | ES 2.0627 | NLL 3.1080 | mean_MSE 9.4545 | objective 4.2644
+Epoch  69 | RMSE 2.0525 | ES 1.6479 | NLL 1.2241 | mean_MSE 5.3057 | objective 2.8314
+Epoch  70 | RMSE 2.1461 | ES 1.5543 | NLL 0.7996 | mean_MSE 6.4152 | objective 2.9173
+Epoch  71 | RMSE 2.1568 | ES 1.6097 | NLL 1.1137 | mean_MSE 5.6198 | objective 2.8450
+Epoch  72 | RMSE 1.8466 | ES 1.4460 | NLL 1.5392 | mean_MSE 4.8541 | objective 2.5707
+Epoch  73 | RMSE 1.1587 | ES 1.2223 | NLL 0.6398 | mean_MSE 1.7413 | objective 1.6346
+Epoch  74 | RMSE 2.4471 | ES 1.7192 | NLL 1.1403 | mean_MSE 7.9310 | objective 3.4194
+Epoch  75 | RMSE 1.3812 | ES 1.3512 | NLL 0.7683 | mean_MSE 2.6350 | objective 1.9550
+Epoch  76 | RMSE 1.9744 | ES 1.6870 | NLL 0.8319 | mean_MSE 6.1352 | objective 2.9972
+Epoch  77 | RMSE 1.7160 | ES 1.7155 | NLL 0.7389 | mean_MSE 4.2664 | objective 2.6427
+Epoch  78 | RMSE 2.8501 | ES 2.3156 | NLL 24.3713 | mean_MSE 12.3860 | objective 7.2299
+Epoch  79 | RMSE 2.7451 | ES 2.3927 | NLL 1.5183 | mean_MSE 10.4572 | objective 4.6360
+Epoch  80 | RMSE 2.0924 | ES 1.5615 | NLL 0.9750 | mean_MSE 6.6514 | objective 2.9893
+Epoch  81 | RMSE 2.4168 | ES 1.7810 | NLL 1.1650 | mean_MSE 10.6733 | objective 4.0321
+Epoch  82 | RMSE 1.2556 | ES 1.1416 | NLL 0.9580 | mean_MSE 2.1129 | objective 1.6600
+Epoch  83 | RMSE 1.5724 | ES 1.3185 | NLL 1.1600 | mean_MSE 2.9393 | objective 2.0223
+Epoch  84 | RMSE 1.5205 | ES 1.3406 | NLL 0.8456 | mean_MSE 2.9486 | objective 2.0149
+Epoch  85 | RMSE 1.9509 | ES 1.3579 | NLL 0.7346 | mean_MSE 5.2421 | objective 2.4798
+Epoch  86 | RMSE 2.5993 | ES 1.7341 | NLL 1.3957 | mean_MSE 8.6633 | objective 3.6063
+Epoch  87 | RMSE 2.0727 | ES 1.6953 | NLL 0.7936 | mean_MSE 6.3263 | objective 3.0399
+Epoch  88 | RMSE 1.4497 | ES 1.1511 | NLL 1.1355 | mean_MSE 2.5725 | objective 1.7791
+Epoch  89 | RMSE 2.3752 | ES 2.0725 | NLL 1.0718 | mean_MSE 7.9799 | objective 3.7756
+Epoch  90 | RMSE 2.0712 | ES 1.6952 | NLL 0.9371 | mean_MSE 6.8568 | objective 3.1603
+Epoch  91 | RMSE 1.7385 | ES 1.3618 | NLL 1.4860 | mean_MSE 3.9464 | objective 2.2997
+Epoch  92 | RMSE 2.4171 | ES 1.8178 | NLL 1.3180 | mean_MSE 8.5324 | objective 3.6561
+Epoch  93 | RMSE 1.1055 | ES 1.0291 | NLL 0.4736 | mean_MSE 1.5138 | objective 1.3792
+Epoch  94 | RMSE 2.3902 | ES 1.9705 | NLL 1.5006 | mean_MSE 7.4037 | objective 3.6013
+Epoch  95 | RMSE 0.9961 | ES 1.1452 | NLL 0.6377 | mean_MSE 1.1600 | objective 1.4410
+Epoch  96 | RMSE 2.2427 | ES 1.6927 | NLL 4.2733 | mean_MSE 6.3076 | objective 3.3815
+Epoch  97 | RMSE 1.4620 | ES 1.1448 | NLL 0.8610 | mean_MSE 2.6171 | objective 1.7544
+Epoch  98 | RMSE 1.7798 | ES 1.6222 | NLL 1.9572 | mean_MSE 4.5346 | objective 2.7249
+Epoch  99 | RMSE 1.7012 | ES 1.7119 | NLL 0.9320 | mean_MSE 4.6643 | objective 2.7379
+Epoch 100 | RMSE 2.2874 | ES 1.6645 | NLL 1.6246 | mean_MSE 6.6896 | objective 3.1649
+Epoch 101 | RMSE 1.3333 | ES 1.2048 | NLL 3.5994 | mean_MSE 2.4360 | objective 2.0520
+Epoch 102 | RMSE 2.1310 | ES 1.7279 | NLL 0.9053 | mean_MSE 6.4905 | objective 3.1165
+Epoch 103 | RMSE 2.4347 | ES 2.2856 | NLL 0.9682 | mean_MSE 9.5495 | objective 4.2923
+Epoch 104 | RMSE 2.0345 | ES 1.6850 | NLL 1.8639 | mean_MSE 5.1793 | objective 2.9072
+Epoch 105 | RMSE 2.3903 | ES 1.7562 | NLL 1.3463 | mean_MSE 7.0623 | objective 3.3033
+Epoch 106 | RMSE 2.2798 | ES 1.6550 | NLL 1.2779 | mean_MSE 6.6462 | objective 3.1120
+Epoch 107 | RMSE 3.1357 | ES 2.3889 | NLL 1.4910 | mean_MSE 14.4606 | objective 5.4302
+Epoch 108 | RMSE 2.6363 | ES 1.8923 | NLL 1.9360 | mean_MSE 10.2944 | objective 4.1447
+Epoch 109 | RMSE 1.2306 | ES 1.0364 | NLL 0.9845 | mean_MSE 1.9250 | objective 1.5199
+Epoch 110 | RMSE 2.6318 | ES 2.1613 | NLL 1.3212 | mean_MSE 10.6414 | objective 4.4217
+Epoch 111 | RMSE 2.0649 | ES 1.6940 | NLL 14.6181 | mean_MSE 5.1911 | objective 4.1940
+Epoch 112 | RMSE 3.3657 | ES 2.7911 | NLL 1.3830 | mean_MSE 17.4383 | objective 6.4170
+Epoch 113 | RMSE 2.0368 | ES 1.6378 | NLL 1.0540 | mean_MSE 5.5024 | objective 2.8437
+Epoch 114 | RMSE 2.6113 | ES 2.2445 | NLL 1.0651 | mean_MSE 9.5734 | objective 4.2657
+Epoch 115 | RMSE 1.9659 | ES 1.5987 | NLL 1.3660 | mean_MSE 5.9367 | objective 2.9227
+Epoch 116 | RMSE 1.8619 | ES 1.6961 | NLL 1.0726 | mean_MSE 4.8319 | objective 2.7697
+Epoch 117 | RMSE 1.5178 | ES 1.2431 | NLL 0.7472 | mean_MSE 3.3745 | objective 1.9927
+Epoch 118 | RMSE 1.8176 | ES 1.3540 | NLL 3.3175 | mean_MSE 3.9619 | objective 2.4781
+Epoch 119 | RMSE 1.8304 | ES 1.6509 | NLL 0.8770 | mean_MSE 4.8900 | objective 2.7166
+Epoch 120 | RMSE 1.8130 | ES 1.5526 | NLL 1.0456 | mean_MSE 4.2478 | objective 2.5067
+Epoch 121 | RMSE 2.8329 | ES 2.4535 | NLL 1.8477 | mean_MSE 10.3782 | objective 4.7139
+Epoch 122 | RMSE 1.9097 | ES 1.3596 | NLL 0.7803 | mean_MSE 5.2192 | objective 2.4814
+Epoch 123 | RMSE 1.8772 | ES 1.4714 | NLL 1.5292 | mean_MSE 4.5532 | objective 2.5349
+Epoch 124 | RMSE 1.3249 | ES 1.4263 | NLL 0.6969 | mean_MSE 2.3505 | objective 1.9661
+Epoch 125 | RMSE 1.6322 | ES 1.3709 | NLL 0.9757 | mean_MSE 3.4331 | objective 2.1551
+Epoch 126 | RMSE 2.1409 | ES 2.0641 | NLL 4.2838 | mean_MSE 6.5607 | objective 3.8047
+Epoch 127 | RMSE 1.6046 | ES 1.1581 | NLL 0.6943 | mean_MSE 3.7544 | objective 1.9785
+Epoch 128 | RMSE 3.0750 | ES 2.2658 | NLL 1.3622 | mean_MSE 12.9374 | objective 4.9895
+Epoch 129 | RMSE 2.5473 | ES 1.5639 | NLL 2.4674 | mean_MSE 8.4514 | objective 3.5009
+Epoch 130 | RMSE 2.0334 | ES 1.7428 | NLL 1.6325 | mean_MSE 5.5490 | objective 3.0159
+Epoch 131 | RMSE 2.2729 | ES 1.6611 | NLL 0.8685 | mean_MSE 6.5112 | objective 3.0502
+Epoch 132 | RMSE 1.4865 | ES 1.5171 | NLL 0.7069 | mean_MSE 3.4114 | objective 2.2701
+Epoch 133 | RMSE 1.7638 | ES 1.6725 | NLL 1.4888 | mean_MSE 4.0566 | objective 2.6327
+Epoch 134 | RMSE 2.3924 | ES 1.8617 | NLL 4.2831 | mean_MSE 7.5928 | objective 3.8086
+Epoch 135 | RMSE 1.2848 | ES 1.2049 | NLL 1.4142 | mean_MSE 2.0080 | objective 1.7479
+Epoch 136 | RMSE 1.2656 | ES 1.2412 | NLL 0.7319 | mean_MSE 2.1394 | objective 1.7423
+Epoch 137 | RMSE 2.6815 | ES 2.1999 | NLL 1.0933 | mean_MSE 9.6651 | objective 4.2422
+Epoch 138 | RMSE 2.5240 | ES 1.7339 | NLL 1.0273 | mean_MSE 9.5134 | objective 3.7393
+Epoch 139 | RMSE 2.5182 | ES 1.8580 | NLL 1.1489 | mean_MSE 8.5038 | objective 3.6737
+Epoch 140 | RMSE 2.1762 | ES 1.8436 | NLL 1.2060 | mean_MSE 6.5790 | objective 3.2800
+Epoch 141 | RMSE 1.7798 | ES 1.5455 | NLL 0.9229 | mean_MSE 3.9700 | objective 2.4318
+Epoch 142 | RMSE 2.4786 | ES 2.2452 | NLL 4.3116 | mean_MSE 8.8881 | objective 4.4540
+Epoch 143 | RMSE 1.3140 | ES 1.1233 | NLL 0.6738 | mean_MSE 2.4030 | objective 1.6712
+Epoch 144 | RMSE 1.7743 | ES 1.5488 | NLL 1.0035 | mean_MSE 3.8847 | objective 2.4260
+Epoch 145 | RMSE 1.8093 | ES 1.7433 | NLL 1.0019 | mean_MSE 4.2382 | objective 2.6911
+Epoch 146 | RMSE 2.0987 | ES 1.7561 | NLL 1.0429 | mean_MSE 5.8387 | objective 3.0282
+Epoch 147 | RMSE 1.6378 | ES 1.4078 | NLL 5.0793 | mean_MSE 3.3267 | objective 2.5811
+Epoch 148 | RMSE 2.8879 | ES 2.1315 | NLL 1.0781 | mean_MSE 11.1020 | objective 4.4597
+Epoch 149 | RMSE 1.3533 | ES 1.1243 | NLL 0.7065 | mean_MSE 2.4222 | objective 1.6794

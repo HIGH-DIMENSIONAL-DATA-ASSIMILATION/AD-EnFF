@@ -1,0 +1,28 @@
+[attractor-pool] building size=16 dim=40 spinup_steps=20 seed=42
+[attractor-pool] spinup 2/20
+[attractor-pool] spinup 4/20
+[attractor-pool] spinup 6/20
+[attractor-pool] spinup 8/20
+[attractor-pool] spinup 10/20
+[attractor-pool] spinup 12/20
+[attractor-pool] spinup 14/20
+[attractor-pool] spinup 16/20
+[attractor-pool] spinup 18/20
+[attractor-pool] spinup 20/20
+[attractor-pool] ready
+seed 10000
+
+========================================================================================
+MATCHED LORENZ-96 EVALUATION (mean +/- std across seeds)
+========================================================================================
+metric                           Analytical ENFF       AD-EnFF plain               MNMEF
+rmse                              0.601 +/- 0.00      0.260 +/- 0.00      0.354 +/- 0.00
+energy_score                      3.063 +/- 0.00      1.505 +/- 0.00      1.793 +/- 0.00
+traj_es                           0.510 +/- 0.00      0.239 +/- 0.00      0.289 +/- 0.00
+variogram                         6.596 +/- 0.00      1.102 +/- 0.00      3.963 +/- 0.00
+coverage                          0.400 +/- 0.00      0.825 +/- 0.00      0.613 +/- 0.00
+climatology_mmd                   0.182 +/- 0.00      0.101 +/- 0.00      0.098 +/- 0.00
+latency_ms                       25.856 +/- 0.00     27.079 +/- 0.00     21.640 +/- 0.00
+========================================================================================
+saved /home/abhi/code/defence/AD-EnFF/moe-v1-lorenz/algo/lorenz96/results/l96_dim40_balanced_d0to7_ep150/eval/trajectories.png
+saved /home/abhi/code/defence/AD-EnFF/moe-v1-lorenz/algo/lorenz96/results/l96_dim40_balanced_d0to7_ep150/eval/metrics.png

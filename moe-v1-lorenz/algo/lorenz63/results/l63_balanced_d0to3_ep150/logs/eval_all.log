@@ -1,0 +1,29 @@
+[attractor-pool-L63] building size=16 dim=3 spinup_steps=20 seed=42
+[attractor-pool-L63] spinup 2/20
+[attractor-pool-L63] spinup 4/20
+[attractor-pool-L63] spinup 6/20
+[attractor-pool-L63] spinup 8/20
+[attractor-pool-L63] spinup 10/20
+[attractor-pool-L63] spinup 12/20
+[attractor-pool-L63] spinup 14/20
+[attractor-pool-L63] spinup 16/20
+[attractor-pool-L63] spinup 18/20
+[attractor-pool-L63] spinup 20/20
+[attractor-pool-L63] ready
+seed 10000
+
+========================================================================================
+MATCHED LORENZ-63 EVALUATION (mean +/- std across seeds)
+========================================================================================
+metric                           Analytical ENFF       AD-EnFF plain               MNMEF
+rmse                              0.999 +/- 0.00      6.531 +/- 0.00      0.773 +/- 0.00
+energy_score                      1.652 +/- 0.00      7.601 +/- 0.00      1.430 +/- 0.00
+traj_es                           1.477 +/- 0.00      5.895 +/- 0.00      1.076 +/- 0.00
+variogram                        16.914 +/- 0.00    182.794 +/- 0.00      3.496 +/- 0.00
+coverage                          0.000 +/- 0.00      0.833 +/- 0.00      1.000 +/- 0.00
+climatology_mmd                   0.024 +/- 0.00      0.158 +/- 0.00      0.020 +/- 0.00
+latency_ms                        9.488 +/- 0.00      7.996 +/- 0.00      3.705 +/- 0.00
+========================================================================================
+saved /home/abhi/code/defence/AD-EnFF/moe-v1-lorenz/algo/lorenz63/results/l63_balanced_d0to3_ep150/eval/trajectories.png
+saved /home/abhi/code/defence/AD-EnFF/moe-v1-lorenz/algo/lorenz63/results/l63_balanced_d0to3_ep150/eval/metrics.png
+saved /home/abhi/code/defence/AD-EnFF/moe-v1-lorenz/algo/lorenz63/results/l63_balanced_d0to3_ep150/eval/attractors_3d.png
